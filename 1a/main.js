@@ -19,3 +19,11 @@ import { SECRET_SAUCE as chicken } from './math.js'
 console.log(add(2, chicken))
 
 console.log(chicken)
+
+import { rectangleArea, rectanglePerimeter } from './rectangles.js'
+
+console.log(`Area of 5x10 rectangle: ${rectangleArea(5, 10)}`)
+
+console.log(`Perimeter of 5x10 rectangle: ${rectanglePerimeter(5, 10)}`)
+
+console.log(`The chicken of a rectangle: ${rectanglePerimeter(chicken, 10)}`)
