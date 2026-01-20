@@ -18,3 +18,4 @@ import { SECRET_SAUCE as chicken } from './math.js'
 
 console.log(add(2, chicken))
 
+console.log(chicken)
