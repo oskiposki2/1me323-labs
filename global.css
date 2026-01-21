@@ -22,8 +22,8 @@ header p {
     justify-content: start;
     padding: 3rem;
     margin-top: 3%;
-    background-color: rgba(128, 128, 128, .7);
-    width: 92%;
+    background-color: rgba(128, 128, 128, .5);
+    width: 90%;
     justify-self: center;
     border-radius: 20px;
     border: solid white .6px;
@@ -34,13 +34,14 @@ h2 {
     white-space: nowrap;
     color: white;
     opacity: 0.8;
+    margin-left: -6%;
 }
 
 .labs {
     background-color: lightgray;
     text-align: center;
     border-radius: 20px;
-    padding: 3%;
+    padding: 2.5%;
     margin-left: 2%;
     border: solid white;
     box-shadow: 0 4px 6px 5px rgba(0, 0, 0, 0.4);
@@ -72,9 +73,10 @@ h2 {
 .introvecka p {
     text-align: center;
     font-size: 1.6em;
-        color: white;
+    color: white;
     font-style: italic;
     opacity: 0.7;
+    margin-left: -6%;
 }
 
 footer {
@@ -84,4 +86,21 @@ footer {
     text-align: center;
     font-weight: bold;
     opacity: 0.8;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.badge.done {
+    background-color: #c6f6d5;
+    color: #276749;
+}
+
+.badge.wip {
+    background-color: #fefcbf;
+    color: #975a16;
 }
