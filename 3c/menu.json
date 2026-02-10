@@ -1,0 +1,43 @@
+{
+    "restaurant": {
+        "name": "Korven",
+        "description": "En korvresturang"
+    },
+    "categories": [
+        {
+            "name": "Förrätter",
+            "dishes": [
+                {
+                    "name": "Liten korv",
+                    "price": 50
+                },
+                {
+                    "name": "Mindre korv",
+                    "price": 25
+                }
+            ]
+        },
+        {
+            "name": "Huvudrätter",
+            "dishes":[
+                {
+                    "name": "Stor korv",
+                    "price": 85
+                },
+                {
+                    "name": "Korvtallrik",
+                    "price": 100
+                }
+            ]
+        },
+        {
+            "name": "Desserter",
+            "dishes":[
+                {
+                    "name": "Korv med glass",
+                    "price": 60
+                }
+            ]
+        } 
+    ]
+} 
