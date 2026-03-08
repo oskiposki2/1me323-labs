@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Slottet Ingen-Återvändo",
+    "location": "Ystad, Skåne",
+    "coordinates": { "lat": 55.43, "lng": 13.82 },
+    "description": "Ett medeltida slott med 47 rum. Bara 43 av dem syns på ritningen."
+  },
+  {
+    "name": "Fyren vid Skräckudden",
+    "location": "Smögen, Bohuslän",
+    "coordinates": { "lat": 58.35, "lng": 11.22 },
+    "description": "En avlägsen fyr som blinkar i morsekod om nätterna."
+  },
+  {
+    "name": "Hotellet i Backåkra",
+    "location": "Österlen, Skåne",
+    "coordinates": { "lat": 55.42, "lng": 14.07 },
+    "description": "Ett ombyggt strandhus där varje gäst vaknar med sand i sängen."
+  }
+]
