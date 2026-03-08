@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab6b</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="main.js"></script>
+</head>
+<body>
+    <h1>Interaktiva formulärfält</h1>
+
+    <label for="message">Skriv ett meddelande:</label>
+    <input type="text" name="message" id="message">
+
+<div id="preview">
+  <p id="preview-text">Hej! Jag ändras när du justerar kontrollerna.</p>
+</div>
+
+<label for="size">Textstorlek: <span id="size-value">16</span>px</label>
+<input type="range" name="size" id="size" min="10" max="48" value="16">
+
+<label for="opacity">Genomskinlighet: <span id="opacity-value">100</span>%</label>
+<input type="range" name="opacity" id="opacity" min="0" max="100" value="100">
+
+<label for="align">Textjustering:</label>
+<select name="align" id="align">
+    <option value="Arial, sans-serif">Arial, sans-serif</option>
+    <option value="Georgia, serif">Georgia, serif</option>
+    <option value="Courier New, monospace">Courier New, monospace</option>
+</select>
+
+<label for="bold">Fetstil</label>
+<input type="checkbox" name="bold" id="bold">
+
+<label for="italic">Kursiv stil</label>
+<input type="checkbox" name="italic" id="italic">
+
+<label for="underline">Understruken text</label>
+<input type="checkbox" name="underline" id="underline">
+
+<label for="color">Bakgrundsfärg</label>
+<input type="color" name="color" id="color" value="#ffffff">
+
+<label for="textColor">Textfärg</label>
+<input type="color" name="textColor" id="textColor" value="#000000">
+
+<form>
+<fieldset>
+    <legend>Formulär</legend>
+
+    <label for="name">Namn</label>
+    <input type="text" name="name" id="name" placeholder="Ditt namn" minlength="2" required>
+    <p id="name-status"></p>
+
+    <label for="email">E-post</label>
+    <input type="email" name="email" id="email" required placeholder="T.ex alf@alf.se">
+    <p id="email-status"></p>
+
+    <button type="submit">Skicka</button>
+</fieldset>
+</form>
+</body>
+</html>

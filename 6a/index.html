@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab6a</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <fieldset id="contact">
+            <legend>Kontaktuppgifter</legend>
+
+        <label for="name">Namn:</label>
+        <input type="text" name="name" id="name" placeholder="Ditt namn" minlength="2">
+
+        <label for="email">E-post:</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="telephone">Telefonnummer:</label>
+        <input type="tel" name="telephone" id="telephone">
+
+        <label for="website">Webbsida:</label>
+        <input type="url" name="website" id="website">
+
+        <label for="birthday">Födelsedag:</label>
+        <input type="date" name="birthday" id="birthday">
+        </fieldset>
+
+        <label for="support">Ärende:</label>
+        <select name="support" id="support">
+            <option value="question">Fråga</option>
+            <option value="feedback">Feedback</option>
+            <option value="support">Support</option>
+        </select>
+
+        <label for="message">Meddelande:</label>
+        <textarea name="message" id="message" rows="5"></textarea>
+
+        <fieldset>
+            <legend>Hur vill du bli kontaktad?</legend>
+
+            <input type="radio" name="contact" id="email">
+            <label for="contact">E-post</label>
+
+            <input type="radio" name="contact" id="phone">
+            <label for="contact">Telefon</label>
+        </fieldset>
+
+        <fieldset>
+            <input type="checkbox" name="accept" id="accept" required>
+            <label for="accept">Jag godkänner villkoren</label>
+        </fieldset>
+
+        <button type="submit">Skicka</button>
+    </form>
+    
+</body>
+</html>
